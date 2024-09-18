@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-device = 'cude' if torch.cuda.is_available() else 'cpu'
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 num_heads = 8
 embed_size = 512
